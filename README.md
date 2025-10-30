@@ -219,8 +219,6 @@ Please follow conventional commits for clear history.
 
 ## License
 
-Add a license of your choice (e.g., MIT). If you intend to open‑source, include `LICENSE` at the repository root.
-
 ---
 
 ## Contact

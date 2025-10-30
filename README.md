@@ -29,22 +29,23 @@ A reusable Kanban Board UI component built from scratch with React, TypeScript, 
 
 ## Live Storybook
 
-- Deployed: <ADD_YOUR_CHROMATIC_OR_HOSTED_STORYBOOK_URL_HERE>
+- Deployed: https://www.chromatic.com/setup?appId=69035293714b8de9f68d5435
 - Local: http://localhost:6006
 
 > The Storybook documents the component in isolation with Default and Empty states, plus interactive demos.
 
 ---
+## Deploying Storybook (Chromatic)
+
+Used the Chromatic CLI to publish Storybook.
 
 ## Screenshots
 
-> Add images or GIFs of your Storybook/board here.
+![Storybook – default](./screenshots/storybook-default.png)
 
-/screenshots
+![Storybook – empty](./screenshots/storybook-empty.png)
 
-storybook-default.png
-
-storybook-empty.png
+![Localhost – Vite App](./screenshots/vite-localhost.png)
 
 
 ---
@@ -79,7 +80,7 @@ storybook-empty.png
 
 ### Install
 
-git clone <YOUR_REPO_URL>
+git clone https://github.com/Yash200305/kanban-component
 cd kanban-component
 npm install
 

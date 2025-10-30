@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "chromatic": "npx chromatic --project-token=chpt_56d6f02d9f108e4"
   },
   "dependencies": {
     "react": "^18.3.1",

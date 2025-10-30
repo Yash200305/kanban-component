@@ -7,7 +7,7 @@ import { Button } from '../primitives/Button';
 import { Modal } from '../primitives/Modal';
 
 export const KanbanBoard: React.FC<KanbanBoardProps> = ({ columns: initialColumns, tasks: initialTasks, onTaskMove, onTaskCreate, onTaskEdit, onTaskDelete }) => {
-  const { columns, tasks, tasksByColumn, moveTask, createTask, updateTask, deleteTask } = useKanbanBoard(initialColumns, initialTasks);
+  const { columns, tasksByColumn, moveTask, createTask, deleteTask } = useKanbanBoard(initialColumns, initialTasks);
   const { onDragStart, onDragOver, onDrop } = useDragAndDrop();
   const [open, setOpen] = useState(false);
   const [currentColumn, setCurrentColumn] = useState<string | null>(null);
